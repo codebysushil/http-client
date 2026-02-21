@@ -1,11 +1,18 @@
-* text=auto
+* text=auto eol=lf
 
-*.php text
+*.blade.php diff=html
+*.css       diff=css
+*.html      diff=html
+*.md        diff=markdown
+*.php       diff=php
 
-.editorconfig export-ingnore
-.gitignore export-ingnore
-.gitattributes export-ingnore
-.github/ export-ingnore
-tests/ export-ingnore
-phpunit.xml export-ingnore
-phpunit.dist.xml export-ingnore
+.editorconfig     export-ingnore
+.gitignore        export-ingnore
+.gitattributes    export-ingnore
+/.github/         export-ingnore
+/tests/           export-ingnore
+/example/         export-ingnore
+phpunit.xml       export-ingnore
+phpunit.dist.xml  export-ingnore
+phpstan.neon      export-ingnore
+phpstan.dist.neon export-ingnore
